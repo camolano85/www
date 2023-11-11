@@ -1,8 +1,6 @@
-# Titulo
+# Proyecto Personal
 ----------------------------------------
-## Titulo Nivel 2
+Describimos en este contenido informacion de nosotros a modo de presentacion personal. 
 ----------------------------------------
-Descripcion
-----------------------------------------
-Autor:[Carlos](https://xxxxxxxx.xxx.xx)
+Autor: Carlos Andres Molano Jimenez 
 ----------------------------------------

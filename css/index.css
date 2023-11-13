@@ -21,13 +21,16 @@ h3{
     text-transform: uppercase;
     background-color: #0C4AE0;
 }
+
 .imagenperfil{
-    
+
+    border-radius: 16px;
     text-align: center;
 
 }
-
-
+img{
+    border-radius: 16px;
+}
 
 
 .audioyvideo{
@@ -83,6 +86,7 @@ h3{
     color:white;
 }
 .pie{
+    
     background-color:#4A84E0 ;
     border: 2px solid grey ;
     margin: 50px;
@@ -91,3 +95,15 @@ h3{
 
     
 }
+
+ul{
+    list-style: square;
+}
+
+.tablas,th,td{
+    border: 1px solid;
+    margin: auto;
+    text-align: center;
+    padding: 6px;
+}
+

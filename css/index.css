@@ -1,3 +1,93 @@
-h1,h2,h3 {
-    color:blue;
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 50px;
+    border: 2px solid green
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+h3{
+    text-transform: uppercase;
+}
+.titulo{
+    border: 2px solid grey ;
+    margin: 25px;
+    padding: 10px;
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #0C4AE0;
+}
+.imagenperfil{
+    
+    text-align: center;
+
+}
+
+
+
+
+.audioyvideo{
+    border: 2px solid #0C4AE0 ;
+    margin: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.video{
+    border: 2px solid #0C4AE0 ;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+.maps{
+    border: 2px solid #0C4AE0 ;
+    margin: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.midescripcion{
+
+    margin: 25px;
+    border: 2px solid #F0F0F0;
+    background-color: #0C4AE0;
+    color:white;
+    padding: 10px;
+    
+    
+    
+}
+.principal{
+    
+    margin: 25px;
+    border: 2px solid #F0F0F0;
+    background-color: #0C4AE0;
+    color:white;
+    padding: 10px;
+
+}
+
+.secundario{
+    border: 2px solid #F0F0F0;
+    margin: 25px;
+    background-color: #0C4AE0;
+    color:white;
+    padding: 10px;
+}
+
+.links{
+    color:white;
+}
+.pie{
+    background-color:#4A84E0 ;
+    border: 2px solid grey ;
+    margin: 50px;
+    text-align: center;
+    padding: 20px;
+
+    
 }

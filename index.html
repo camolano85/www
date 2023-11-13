@@ -15,23 +15,25 @@
 
 <body>
     <hr>
-    <header>
+    <header class="titulo">
         <h1>Proyecto Personal</h1>
-        <img src="assests/imagen.jpg" alt="imagen de perfil">
     </header>
-    <br>
+    
+
+    <div class="imagenperfil">
+        <img src="assests/imagen.jpg" alt="imagen de perfil">
+    </div>
+    
 
         
-            <span>
+            <div class="midescripcion">
                 Mi nombre como lo dice el titulo es Carlos Andres Molano Jimenez, tengo 37 años, vivo en la ciudad de bogota 
-                con mi esposa y mi hijo que tiene 9 añitos.
-                Soy el segundo de 3 hermanos el mayor vive en Estados Unidos y la menor vive con mi madre en el barrio Madrid.
-                <br>
+                con mi esposa y mi hijo que tiene 9 añitos.Soy el segundo de 3 hermanos el mayor vive en Estados Unidos y la menor vive con mi madre en el barrio Madrid.
                 Actualmente laboro para una financiera de vehiculos que se llama Finanzauto, este año complete 9 años de laborar alli
                 y a sido una excelente escuela para mi crecimiento en el area de de TI.
-            </span>
+            </div>
     
-    <main>        
+    <main class="principal">        
         <h3>Estudios</h3>
 
             <ul>
@@ -68,14 +70,14 @@
 
     </main>
 
-    <aside>
+    <aside class="secundario">
         <h3>Mis Redes Sociales</h3>
             <p>Pueden saber un poco mas de mi en mis redes sociales</p>
                 <nav>
                     <ol>
-                        <li><a href="https://www.facebook.com/?locale=es_LA">facebook</a></li>
-                        <li><a href="https://www.instagram.com/accounts/login/?hl=es">Instagram</a></li>
-                        <li><a href="https://twitter.com/iniciarsesion?lang=es">twitter</a></li>
+                        <li><a class="links" href="https://www.facebook.com/?locale=es_LA">facebook</a></li>
+                        <li><a class="links" href="https://www.instagram.com/accounts/login/?hl=es">Instagram</a></li>
+                        <li><a class="links" href="https://twitter.com/iniciarsesion?lang=es">twitter</a></li>
                     </ol>
                 </nav>
 
@@ -86,7 +88,10 @@
             <dd>El futbol es mi pasatiempo preferido, tanto verlos con mi familia o amigos hasta practicarlo 2 o 3 veces a la semana</dd>
         </dl>
 
-        <video src="assests/video.mp4"controls></video>
+<div class="video">
+    <video src="assests/video.mp4"controls></video>
+</div>
+        
 
         <h3>Mi Rutina Semanal</h3>
 
@@ -94,6 +99,7 @@
             En este cuadro muestro mis actividades diarias de Lunes a Viernes
         </p>
 
+<div class="tabla">
         <table>
             <thead>
                 <tr>
@@ -133,25 +139,31 @@
                 </tr>
             </tbody>
         </table>
+    </div>
 
         <h3>Mi Musica Preferida</h3>
 
             <div>Me gusta la mayoria de generos musicales pero mi favorita es la salsa y principalmente el cantante que presento en el audio</div>
-            <br>
-                <audio src="assests/audio.mp3"controls></audio>
-                <br>
-                <br>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/37klfF1qAtA?si=JMaS5qAA9ns7aCY1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+<div class="audioyvideo">
+    <audio src="assests/audio.mp3"controls></audio>
+    <br>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/37klfF1qAtA?si=JMaS5qAA9ns7aCY1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+                
                 
                 <br>
                 <h3>Mi Lugar de Vivienda</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.3947265242!2d-74.27261683853996!3d4.6486206279238695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1699644870257!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.3947265242!2d-74.27261683853996!3d4.6486206279238695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1699644870257!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
 
     </aside>
 
     
-    <hr>
-                <footer>
+    
+                <footer class="pie">
                     camolano85@gmail.com
                     <br>
                     Celular: 3213588605

@@ -13,9 +13,11 @@ h3{
     text-transform: uppercase;
 }
 .titulo{
+    position: sticky;
+    top: 0;
     border: 2px solid grey ;
-    margin: 25px;
-    padding: 10px;
+    margin: 15px;
+    padding: 5px;
     color:white;
     text-align: center;
     text-transform: uppercase;
@@ -85,6 +87,14 @@ img{
 .links{
     color:white;
 }
+
+.icono-inferior{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 24px;
+    color: green;
+}
 .pie{
     
     background-color:#4A84E0 ;
@@ -105,5 +115,19 @@ ul{
     margin: auto;
     text-align: center;
     padding: 6px;
+}
+
+::marker{color:yellow;
+    
+}
+
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color: orange;
+    text-decoration: underline;
 }
 

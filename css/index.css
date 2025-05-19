@@ -1,9 +1,17 @@
-div,span{
-    color: brown;
-    font-size: xx-large;
+*{
+    box-sizing: border-box;
+
 }
-div,span{
-    color: green;
-    font-size: xx-large;
-    font-size: 20px;
+h1{
+    color: white;
+    text-align: center;
+    background-color: blue;
+padding: 20px 0;
+}
+p{
+    color: rgb(128, 94, 0);
+    font-size: 24px;
+    direction: ltr;
+    text-decoration:underline;
+    
 }

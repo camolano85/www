@@ -3,10 +3,12 @@
 
 }
 h1{
+    font-family: "Playpen";
     color: white;
     text-align: center;
     background-color: blue;
 padding: 20px 0;
+
 }
 p{
     color: rgb(128, 94, 0);

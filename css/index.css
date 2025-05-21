@@ -17,3 +17,21 @@ p{
     text-decoration:underline;
     
 }
+
+h1:hover{
+    color: brown;
+}
+p::first-line{
+    color: blueviolet;
+}
+
+.caja-padre{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+.caja-hijo{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+}

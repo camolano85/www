@@ -1,0 +1,1 @@
+alert("Hola, Equipo desde archivo externo")

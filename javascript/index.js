@@ -27,5 +27,24 @@ console.log(nombre4);
 }
 console.log(sobrenombre);*/
 
+'use strict';
+/*
+let nombre = 0.85;
+console.log(nombre)
+console.log(typeof nombre)
+nombre = nombre.toString();
+console.log(nombre);
+console.log(typeof nombre);
 
 
+console.log(Boolean(1))
+console.log(Boolean(0))
+*/
+
+let nombre = prompt('Cual es tu nombre?');
+console.log(nombre);
+console.log(typeof nombre);
+document.write(nombre);
+let siOno = confirm('Desea continuar?');
+console.log(siOno);
+console.log(typeof siOno);

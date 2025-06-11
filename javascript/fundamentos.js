@@ -41,10 +41,11 @@ console.log(Boolean(1))
 console.log(Boolean(0))
 */
 
-let nombre = prompt('Cual es tu nombre?');
+/*let nombre = prompt('Cual es tu nombre?');
 console.log(nombre);
 console.log(typeof nombre);
 document.write(nombre);
 let siOno = confirm('Desea continuar?');
 console.log(siOno);
 console.log(typeof siOno);
+*/

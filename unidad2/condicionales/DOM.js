@@ -1,0 +1,1 @@
+document.getElementById("titulo").innerText = "Nuevo Título";
